@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c9bb7de3;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: rgb(89, 134, 127);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.notes {
+    margin-top: 20px;
+}
+
+.notes ul {
+    list-style: none;
+    padding: 0;
+}
+
+.notes li {
+    background: #e9e9e9;
+    padding: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.notes a {
+    color: rgb(245, 11, 128);
+    text-decoration: none;
+}
